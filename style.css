@@ -1,0 +1,55 @@
+html {
+  background-color: #cccccc;
+  max-width: 1250px;
+}
+
+h1 {
+  font: italic bold 40px 'Merriweather Sans', sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px #808080;
+  color: black;  
+}
+
+img {
+  max-width: 100%;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e6e6e6;
+  max-width: 1250px; 
+}
+
+#img-caption, .link {
+  text-align: center;
+  font-size: 14px;
+}
+
+h2,h3 {
+  font: italic bold 20px'Alegreya', serif;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+*{
+  color: #3c2e28;
+  font-size: 16px;
+}
+
+li {
+  font-style: italic;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: purple;
+}
+
